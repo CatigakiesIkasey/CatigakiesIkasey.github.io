@@ -1,0 +1,339 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+#home {
+    height: 100vh;
+    width: 100%;
+    background-color: #ffffff00;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5%;
+    padding-left: 8%;
+    background-color: #ffffff;
+    border-bottom: 1px solid pink;
+}
+
+.logo {
+    color: rgb(0, 0, 0);
+    padding-left: 0;
+    padding-right: 10%;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: palevioletred;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+    transition: transform 0,7s;
+}
+
+nav ul li a:hover {
+    color: palevioletred;
+}
+
+ul{
+    padding-left: 160px;
+}
+
+.btn {
+    background-color: pink;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 30px;
+    transition: transform 0.7s;
+}
+
+.btn:hover {
+    color: #ffff;
+    background-color: palevioletred;
+    cursor: pointer;
+}
+
+.image {
+    width: 50%;
+    height: 90%;
+    position: relative;
+    bottom: 0;
+}
+
+.image img {
+    height: 100%;
+    width: 90%;
+    position: absolute;
+    left: 90%;
+    bottom: 0;
+    transform: translateX(20%);
+}
+
+.content {
+    position: absolute;
+    top: 60%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h4 {
+    color: #ffff;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+h1 {
+    color: pink;
+    font-size: 65px;
+    margin: 20px 0 20px;
+}
+
+h3 {
+    color: palevioletred;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.content a {
+    font-size: 20px;
+    font-weight: 700;
+    background-color: pink;
+    color: black;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 2px solid white;
+    transition: transform 0.7s;
+}
+
+.content a:hover {
+    color: #ffff;
+    background-color: palevioletred;
+    cursor: pointer;
+}
+
+#about {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #0000;
+}
+
+.about-me {
+    width: 1130px;
+    padding-bottom: 150px;
+    max-width: 95%;
+    display: flex;
+    align-items: center;
+    float: left;
+    justify-content: space-around;
+}
+
+.about-me img {
+    height: auto;
+    float: left;
+    width: 450px;
+    border-radius: 10px;
+}
+
+.about-text {
+    width: 550px;
+}
+
+.about-me h2 {
+    color: pink;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    border-bottom: 1px solid pink;
+}
+
+.about-text h5 {
+    color: palevioletred;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p {
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+
+.button {
+    background-color: pink;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: transform 0.7s;
+}
+
+.button:hover {
+    color: #ffff;
+    background-color: palevioletred;
+    cursor: pointer;
+}
+
+#title h2 {
+    color: pink;
+    font-size: 70px;
+    width: 100%;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.card {
+    height: 100%;
+    width: 100%;
+    max-width: 1000px;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px 35px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 3px solid palevioletred;
+}
+
+.card i {
+    font-size: 50px;
+    color: pink;
+    margin: 25px 0;
+}
+
+.card h5 {
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.card-image img{
+    width: 98%;
+    height: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button-card{
+    background-color: pink;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: transform 0.7s;
+}
+
+.button-card:hover {
+    color: #ffff;
+    background-color: palevioletred;
+    cursor: pointer;
+}
+
+.pra {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Untuk menempatkan paragraf dan tombol di tengah vertikal */
+    height: 100%; /* Untuk memastikan flexbox menyesuaikan tinggi kontainer */
+    padding-bottom: 10px; /* Jarak antara konten dan tombol */
+}
+
+.pra p {
+    color: #000000; /* Mengubah warna teks menjadi putih */
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.pra p a {
+    background-color: pink;
+    color: #000000; /* Mengubah warna teks tombol menjadi putih */
+    border: 2px solid pink;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    text-decoration: none; /* Menghapus dekorasi teks */
+    text-align: center; /* Menengahkan tombol */
+}
+
+.pra p a:hover {
+    color: #ffff;
+    background-color: palevioletred;
+    cursor: pointer;
+}
+
+.title i {
+    font-size: 40px; /* Ukuran ikon */
+    margin: 0 10px; /* Jarak antara ikon */
+    color: #e0e0e0; /* Warna ikon */
+    transition: color 0.3s; /* Transisi warna saat hover */
+}
+
+.title i:hover {
+    color: #ffffff; /* Warna ikon saat hover */
+}
+
+#footer {
+    background-color: #000; /* Black background for the footer */
+    padding: 50px 0; /* Top and bottom padding */
+    text-align: center; /* Center content horizontally */
+    color: #fff; /* White color for text by default */
+}
+  
+.footer-content {
+    display: flex; /* Arrange elements horizontally */
+    justify-content: space-between; /* Space elements evenly */
+    align-items: center; /* Vertically align elements in the center */
+    width: 80%; /* Limit content width (adjust as needed) */
+    margin: 0 auto; /* Center content horizontally within the footer */
+}
+  
+.social-icons {
+    display: flex; /* Arrange icons horizontally */
+    color: #fff; /* Inherit white color for text within social icons */
+}
+  
+.social-icons a {
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 10px; /* Add spacing between icons */
+    font-size: 20px; /* Adjust icon size */
+    color: rgb(255, 255, 255); /* Blue color for social icons */
+}
+  
+.social-icons a:hover {
+    color: #f0f; /* Pink color for icons on hover (optional) */
+}
+  
+.copyright {
+    color: #fff; /* White color for copyright text */
+    font-size: 14px; /* Adjust copyright text size */
+}
+  
