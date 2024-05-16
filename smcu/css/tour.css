@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffff;
+}
+header {
+    height: 100px;
+    padding: 10px 40px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo h1 {
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin: 0;
+    margin-right: 20px; /* Spasi antara judul dan menu */
+}
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+.menu{
+    padding-right: 50px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    margin-right: 40px; /* Spasi antara menu */
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    padding: 15px;
+    border-radius: 10px;
+}
+nav ul li a:hover {
+    color: #000000b1;
+    background-color: #ffb7ca;
+}
+.concert h2{
+    margin-top: 90px;
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 200px;
+    font-family: Times New Roman;
+}
+.concert h1{
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 200px;
+    font-family: 'Times New Roman';
+}
+.jadwal{
+    margin-top: 90px;
+    text-align: center;
+}
+.jadwal img{
+    position: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #223055;
+}
+
+footer {
+    background-color: black; /* Mengatur latar belakang menjadi hitam */
+    text-align: center;
+    padding: 20px 0;
+}
+footer p {
+    color: white; /* Mengatur warna teks menjadi putih */
+    font-size: 14px;
+    margin-top: 10px;
+}
+.social-icon {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(110, 106, 106); /* Warna ikon */
+    margin: 0 10px; /* Spasi antara ikon */
+}
+.social-icon:hover {
+    color: rgb(0, 0, 0); /* Warna ikon saat dihover */
+}
