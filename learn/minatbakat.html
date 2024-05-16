@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solo Learning</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-mode">
+<!-- header -->
+<div class="fixed-header">
+    <div class="container1">
+        <nav>
+            <a href="#"><strong>Home</strong></a>
+            <a href="#"><strong>About Me</strong></a>
+            <a href="#"><strong>Blog</strong></a>
+            <a href="#"><strong>Portofolio</strong></a>
+            <a href="#"><strong>Contact</strong></a>
+            <button id="darkModeToggle"><strong>Mode Option</strong></button>
+        </nav>
+    </div>
+</div>
+<!-- content -->
+<div class="container">
+    <a href="index.html" class="awal"><h1>Solo Learning</h1></a>
+    <div class="row">
+        <div class="card">
+            <img src="asset/punk1new.jpg" alt="cute cats hehe">
+            <h4>Minat</h4>
+            <p>Selama kuliah, ada jenjang pendidikan dari semester 1 hingga 8. Jika gagal di semester tertentu, harus mengulang mata kuliah.</p>
+            <p>Setiap semester, terdapat 6-8 mata kuliah, ada mata kuliah wajib dan pilihan, mata kuliah yang diberikan bisa tergantung nilai mata kuliah terkait sebelumnya.</p>
+            <a href="matakuliah.html" class="btn">Pelajari selengkapnya...</a>
+        </div>
+        <div class="card">
+            <img src="asset/punk1new.jpg" alt="cute cats hehe">
+            <h4>Bakat</h4>
+            <p>Jadwal mata kuliah terdiri dari informasi tanggal dan waktu kelas mata kuliah, ruang kelas, dan dosen yang mengajar.</p>
+            <p>Fitur lainnya yang ditambahkan seperti kalender kuliah dan jadwal pengganti kelas.</p>
+            <a href="jadwal.html" class="btn">Pelajari selengkapnya...</a>
+        </div>
+        <div class="card">
+            <img src="asset/punk1new.jpg" alt="cute cats hehe">
+            <h4>Tes Minat & Bakat</h4>
+            <p>Setiap mata kuliah ada 2-3 tugas. Tugas bisa berupa tugas laporan, atau presentasi, dan tugas lainnya.</p>
+            <p>Evaluasi apa yang telah dipelajari dengan kuis, UTS, UAS, dan latihan mandiri di rumah.</p>
+            <a href="tugas.html" class="btn">Pelajari selengkapnya...</a>
+        </div>
+    </div>
+    <div class="container1"><a href="index.html"><h1>Good Luck! :v </h1></a></div>
+</div>
+<!-- footer -->
+<div class="fixed-footer">
+    <div class="container1">
+        <p><strong>Solo Learning</strong></p>
+    </div>
+    <div class="container2">
+        <p><strong>Copyright &copy; 2024 Solo Learning</strong></p>
+    </div>        
+</div>
+<script>
+    const darkModeToggle = document.getElementById('darkModeToggle');
+const body = document.body;
+
+darkModeToggle.addEventListener('click', () => {
+  body.classList.toggle('dark-mode');
+});
+</script>
+</body>
+</html>
