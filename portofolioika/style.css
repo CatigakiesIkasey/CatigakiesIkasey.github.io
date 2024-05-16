@@ -19,7 +19,7 @@ nav {
     padding-right: 5%;
     padding-left: 8%;
     background-color: #ffffff;
-    border-bottom: 1px solid pink;
+    border-bottom: 1px solid rgb(255, 128, 150);
     position: fixed;
     z-index: 1000;
     top: 0;
@@ -62,7 +62,7 @@ ul{
 }
 
 .btn {
-    background-color: pink;
+    background-color: rgb(255, 128, 150);
     color: black;
     font-weight: bold;
     padding: 10px;
@@ -112,7 +112,7 @@ h3 {
 }
 
 h1 {
-    color: pink;
+    color: rgb(255, 128, 150);
     font-size: 65px;
     margin: 20px 0 20px;
 }
@@ -120,7 +120,7 @@ h1 {
 .content a {
     font-size: 20px;
     font-weight: 700;
-    background-color: pink;
+    background-color: rgb(255, 128, 150);
     color: black;
     display: inline-block;
     padding: 10px 30px;
@@ -163,17 +163,17 @@ h1 {
 }
 
 .about-me h2 {
-    color: pink;
+    color: rgb(255, 128, 150);
     font-size: 65px;
     text-transform: capitalize;
     margin-bottom: 20px;
-    border-bottom: 1px solid pink;
+    border-bottom: 1px solid rgb(255, 128, 150);
 }
 
 .about-text h5 {
     color: palevioletred;
     letter-spacing: 2px;
-    font-size: 22px;
+    font-size: 23px;
     margin-bottom: 25px;
     text-transform: capitalize;
 }
@@ -182,13 +182,13 @@ h1 {
     color: rgb(0, 0, 0);
     letter-spacing: 1px;
     line-height: 28px;
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 45px;
     text-align: justify;
 }
 
 .button {
-    background-color: pink;
+    background-color: rgb(255, 128, 150);
     color: black;
     font-weight: bold;
     font-size: 20px;
@@ -204,7 +204,7 @@ h1 {
 }
 
 #title h2 {
-    color: pink;
+    color: rgb(255, 128, 150);
     font-size: 70px;
     width: 100%;
     padding-bottom: 50px;
@@ -229,7 +229,7 @@ h1 {
 
 .card i {
     font-size: 50px;
-    color: pink;
+    color: rgb(255, 128, 150);
     margin: 25px 0;
 }
 
@@ -247,7 +247,7 @@ h1 {
 }
 
 .button-card{
-    background-color: pink;
+    background-color: rgb(255, 128, 150);
     color: black;
     font-weight: bold;
     font-size: 20px;
@@ -278,9 +278,9 @@ h1 {
 }
 
 .pra p a {
-    background-color: pink;
+    background-color: rgb(255, 128, 150);
     color: #000000; /* Mengubah warna teks tombol menjadi putih */
-    border: 2px solid pink;
+    border: 2px solid rgb(255, 128, 150);
     font-weight: bold;
     padding: 9px 22px;
     border-radius: 30px;
@@ -333,7 +333,7 @@ h1 {
 }
   
 .social-icons a:hover {
-    color: #f0f; /* Pink color for icons on hover (optional) */
+    color: #f0f; /*  color for icons on hover (optional) */
 }
   
 .copyright p{
