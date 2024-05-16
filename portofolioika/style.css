@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #home {
@@ -19,7 +20,7 @@ nav {
     padding-right: 5%;
     padding-left: 8%;
     background-color: #ffffff;
-    border-bottom: 1px solid rgb(255, 128, 150);
+    border-bottom: 1px solid #c94646;
     position: fixed;
     z-index: 1000;
     top: 0;
@@ -31,13 +32,13 @@ nav {
     color: rgb(0, 0, 0);
     padding-left: 0;
     padding-right: 10%;
-    font-size: 35px;
+    font-size: 30px;
     letter-spacing: 1px;
     cursor: pointer;
 }
 
 span {
-    color: palevioletred;
+    color: #c94646;
 }
 
 nav ul li {
@@ -48,13 +49,13 @@ nav ul li {
 nav ul li a {
     color: rgb(0, 0, 0);
     font-weight: bold;
-    font-size: 16px;
+    font-size: 15px;
     text-transform: capitalize;
     transition: transform 0,7s;
 }
 
 nav ul li a:hover {
-    color: palevioletred;
+    color: #bc112e;
 }
 
 ul{
@@ -62,8 +63,8 @@ ul{
 }
 
 .btn {
-    background-color: rgb(255, 128, 150);
-    color: black;
+    background-color: #bc112e;
+    color: #ffff;
     font-weight: bold;
     padding: 10px;
     border-radius: 30px;
@@ -71,8 +72,8 @@ ul{
 }
 
 .btn:hover {
-    color: #ffff;
-    background-color: palevioletred;
+    color: #ffbaba;
+    background-color: #c94646;
     cursor: pointer;
 }
 
@@ -106,13 +107,13 @@ h4 {
 }
 
 h3 {
-    color: palevioletred;
+    color: #bc112e;
     font-size: 25px;
     margin-bottom: 50px;
 }
 
 h1 {
-    color: rgb(255, 128, 150);
+    color: #AB001C;
     font-size: 65px;
     margin: 20px 0 20px;
 }
@@ -120,8 +121,8 @@ h1 {
 .content a {
     font-size: 20px;
     font-weight: 700;
-    background-color: rgb(255, 128, 150);
-    color: black;
+    background-color: #AB001C;
+    color: #ffff;
     display: inline-block;
     padding: 10px 30px;
     border-radius: 30px;
@@ -130,8 +131,8 @@ h1 {
 }
 
 .content a:hover {
-    color: #ffff;
-    background-color: palevioletred;
+    color: #ffbaba;
+    background-color: #bc112e;
     cursor: pointer;
 }
 
@@ -143,7 +144,6 @@ h1 {
 
 .about-me {
     width: 1130px;
-    padding-bottom: 150px;
     max-width: 95%;
     display: flex;
     align-items: center;
@@ -163,15 +163,15 @@ h1 {
 }
 
 .about-me h2 {
-    color: rgb(255, 128, 150);
+    color: #AB001C;
     font-size: 65px;
     text-transform: capitalize;
     margin-bottom: 20px;
-    border-bottom: 1px solid rgb(255, 128, 150);
+    border-bottom: 1px solid #AB001C;
 }
 
 .about-text h5 {
-    color: palevioletred;
+    color: #bc112e;
     letter-spacing: 2px;
     font-size: 23px;
     margin-bottom: 25px;
@@ -188,8 +188,8 @@ h1 {
 }
 
 .button {
-    background-color: rgb(255, 128, 150);
-    color: black;
+    background-color: #AB001C;
+    color: #ffff;
     font-weight: bold;
     font-size: 20px;
     padding: 13px 30px;
@@ -198,17 +198,18 @@ h1 {
 }
 
 .button:hover {
-    color: #ffff;
-    background-color: palevioletred;
+    color: #ffbaba;
+    background-color: #bc112e;
     cursor: pointer;
 }
 
 #title h2 {
-    color: rgb(255, 128, 150);
+    color: #AB001C;
     font-size: 70px;
     width: 100%;
     padding-bottom: 50px;
     text-align: center;
+    margin-top: 500px;
 }
 
 .card {
@@ -224,12 +225,12 @@ h1 {
     position: relative;
     overflow: hidden;
     text-align: center;
-    border: 3px solid palevioletred;
+    border: 3px solid #bc112e;
 }
 
 .card i {
     font-size: 50px;
-    color: rgb(255, 128, 150);
+    color: #AB001C;
     margin: 25px 0;
 }
 
@@ -247,8 +248,8 @@ h1 {
 }
 
 .button-card{
-    background-color: rgb(255, 128, 150);
-    color: black;
+    background-color: #AB001C;
+    color: #ffff;
     font-weight: bold;
     font-size: 20px;
     padding: 13px 30px;
@@ -257,8 +258,8 @@ h1 {
 }
 
 .button-card:hover {
-    color: #ffff;
-    background-color: palevioletred;
+    color: #ffbaba;
+    background-color: #bc112e;
     cursor: pointer;
 }
 
@@ -278,9 +279,9 @@ h1 {
 }
 
 .pra p a {
-    background-color: rgb(255, 128, 150);
-    color: #000000; /* Mengubah warna teks tombol menjadi putih */
-    border: 2px solid rgb(255, 128, 150);
+    background-color: #AB001C;
+    color: #ffff; /* Mengubah warna teks tombol menjadi putih */
+    border: 2px solid #AB001C;
     font-weight: bold;
     padding: 9px 22px;
     border-radius: 30px;
@@ -290,7 +291,7 @@ h1 {
 
 .pra p a:hover {
     color: #ffff;
-    background-color: palevioletred;
+    background-color: #bc112e;
     cursor: pointer;
 }
 
